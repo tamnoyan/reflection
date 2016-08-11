@@ -1,0 +1,7 @@
+# What happens when you initialize a repository? Why do you need to do it?
+create a new git repository, and hidden folder named .git is added which contains the required files for version history
+Without a repository, git cannot do anything. Git works only on git repositories
+
+# How is the staging area different from the working directory and the repository? What value do you think it offers?
+working directory -> adding files to staging area -> create commit -> repository
+add files to -> staging area -> create commit -> working directory ->repository 
