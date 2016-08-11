@@ -4,4 +4,11 @@ Without a repository, git cannot do anything. Git works only on git repositories
 
 # How is the staging area different from the working directory and the repository? What value do you think it offers?
 working directory -> adding files to staging area -> create commit -> repository
-add files to -> staging area -> create commit -> working directory ->repository 
+
+working area are the files that we works on but didn't decide to upload them to staging area yet, 
+staging area show files that was upload from working directory but not in the repository yet, The staging area is like a monitored area by git, we can add and remove before create a commit to the repository.
+they help us decide if to create a repository with those files or not. 
+
+# How can you use the staging area to make sure you have one commit per logical change?
+check the changes using git diff --stage before commit
+you can split changed files in logical change sets. 
