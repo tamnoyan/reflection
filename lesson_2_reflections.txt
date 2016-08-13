@@ -24,3 +24,7 @@ see the relations between commits and branches, when and where specific change h
 # What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 combine to main branch, no need to keep few branches, also this is the way to do it when we want combine all new features from both branches
 After a merge, all commits will be shown based on their timestamps in the git log. This will show the commits from the two different branches running through each other.
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merge is good when there no special problems, it saves a lot of time compared to manually merge since you don't have to review all that code
+while merge manually we can check and be sure that we are merging only the code that we like when we have a merging conflict because two people edit the some part of code and need to decide which code we'll stay, also merging is very important when we working on a side feature but want that branch to always be update with master code and features.
